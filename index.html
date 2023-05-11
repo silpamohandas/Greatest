@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./gstyle.css">
+</head>
+<body>
+    <div>
+    <h1>Greatest among two numbers</h1>
+    <input id="a1" type="text" placeholder="Enter first number"><br>
+    <input id="a2" type="text" placeholder="Enter second number"><br>
+    <button type="button" onclick="greater()">check</button>
+</div>
+
+
+</body>
+<script>
+    function greater(){
+        n1=parseInt(a1.value)
+        n2=parseInt(a2.value)
+        n1>n2?alert(`${n1} is greatest one`):alert(`${n2} is greatest one`)
+    }
+</script>
+</html>
